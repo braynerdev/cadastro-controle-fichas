@@ -49,6 +49,25 @@ cadastro-controle-fichas/
    ```
 4. O back-end estará disponível em `http://localhost:8081` e o front-end em `http://localhost:8082`.
 
+## Estrutura de Branches (GitHub)
+
+O projeto utiliza o seguinte fluxo de branches para organização e entrega contínua:
+
+- **main**: branch principal, representa o código em produção.
+- **homologacao**: branch de homologação, onde são realizados os testes finais antes de ir para produção.
+- **desenvolvimento**: branch de integração, onde os desenvolvedores integram suas funcionalidades.
+- **[nome-do-desenvolvedor]**: cada desenvolvedor trabalha em sua própria branch identificada pelo seu nome.
+
+### Fluxo de trabalho
+
+1. Cada desenvolvedor cria e trabalha em sua branch própria (ex: `brayner`).
+2. Ao finalizar uma funcionalidade, faz merge na branch `desenvolvimento`.
+3. Todos os desenvolvedores sincronizam suas branches com a `desenvolvimento` (pull/push).
+4. Quando o conjunto de funcionalidades estiver pronto, a branch `desenvolvimento` é mesclada na `homologacao` para testes.
+5. Após a homologação, a branch `homologacao` é mesclada na `main` para produção.
+
+Esse fluxo garante organização, rastreabilidade e qualidade no processo de entrega do projeto.
+
 ## Integrantes do Grupo
 
 - Daniela Lopes — Gerente de Projetos
