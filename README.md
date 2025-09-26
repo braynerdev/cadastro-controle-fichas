@@ -70,12 +70,12 @@ Esse fluxo garante organização, rastreabilidade e qualidade no processo de ent
 
 ## Integrantes do Grupo
 
-- Daniela Lopes — Gerente de Projetos
+- Daniela Lopes — Desenvolvedor Back-end
 - João Brayner – Desenvolvedor back-end e DevOps
 - Felipe Reis — Desenvolvedor Back-end
 - Thiago Mariano — Desenvolvedor Front-end
 - Claúdio Eduardo — Desenvolvedor Front-end
-- José Tacyto — Designer
+- José Tacyto — Desenvolvedor Front-end
 
 ## Licença
 
